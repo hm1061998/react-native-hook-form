@@ -1,20 +1,3 @@
-# react-native-hook-form
-
-lib react-hook-form for react native
-
-## Installation
-
-```sh
-npm install react-native-hook-form
-
-or
-
-yarn add react-native-hook-form
-```
-
-## Usage
-
-```js
 import * as React from 'react';
 import { TextInput } from 'react-native';
 
@@ -31,7 +14,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Form style={styles.form} ref={setFormRef}>
-        <View style={{ height: 50, borderWidth: 1 }}>
+        <View style={{ height: 50 }}>
           <FormItem
             style={styles.inputView}
             errorTextStyle={{ marginTop: -20 }}
@@ -96,16 +79,3 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
 });
-```
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)

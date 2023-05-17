@@ -38,9 +38,7 @@
   "keywords": [
     "react-native",
     "ios",
-    "android",
-    "form",
-    "react-hook-form"
+    "android"
   ],
   "repository": "https://github.com/hm1061998/react-native-hook-form",
   "author": "hm1061998 <hm1061998@gmail.com> (https://github.com/hm1061998)",
